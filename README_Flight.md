@@ -13,6 +13,18 @@ An exploratory data analysis (EDA) project on **5.8M+ U.S. domestic flight recor
 
 ---
 
+## 📸 Power BI Dashboard
+
+A 4-page interactive Power BI dashboard covering:
+- **Overview** — Executive summary with KPIs (14 airlines, 322 airports, 5.82M flights)
+- **Delay Analysis** — Delay breakdown by airline, cause, day, and time of day
+- **Deep Insights** — Weather delay trends, cancellation reasons, and tail number analysis
+- **Route & Airport Performance** — Most used routes, most delayed routes, and geographic map
+
+📄 [View Dashboard PDF](Flight_Delays_Dashboard.pdf)
+
+---
+
 ## 🗂️ Dataset
 
 📥 **Download the dataset here:**  
@@ -73,11 +85,12 @@ streamlit run Flight.py
 ```
 flight-delays-analysis/
 │
-├── Flight.py               # Streamlit EDA app
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
+├── Flight.py                       # Streamlit EDA app
+├── requirements.txt                # Python dependencies
+├── README.md                       # Project documentation
+├── Flight_Delays_Dashboard.pdf     # Power BI dashboard export
 │
-└── data/                   # Place Kaggle CSV files here
+└── data/                           # Place Kaggle CSV files here
     ├── flights.csv
     ├── airlines.csv
     └── airports.csv
@@ -90,4 +103,5 @@ flight-delays-analysis/
 **Madyan Alammari**  
 Computer Science — King Abdulaziz University  
 📧 Madyan3172001@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/madyan-alammari-73852a170)
+🔗 [LinkedIn](https://www.linkedin.com/in/madyan-alammari-73852a170)  
+🐙 [GitHub](https://github.com/MadyanAlammari)
